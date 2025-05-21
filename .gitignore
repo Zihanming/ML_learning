@@ -1,1 +1,24 @@
+# Ignore PyCharm project settings
 .idea/
+*.iml
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore virtual environment folders
+venv/
+.env/
+*.egg-info/
+
+# Ignore logs and outputs
+*.log
+*.out
