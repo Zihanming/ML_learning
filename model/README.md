@@ -72,7 +72,7 @@ All datasets are preprocessed using custom pipeline scripts (`data_pipeline.py` 
 
 To ensure consistent preprocessing across models, the project includes reusable pipeline modules built with `scikit-learn`’s `Pipeline` and `ColumnTransformer`.
 
-For example
+For example:
 
 ### 📦 `data_pipeline.py`
 Used in: **classification & regression tasks**  
@@ -84,4 +84,42 @@ Located at: `classification_model/data_pipeline.py`
 - Easily wraps any estimator (e.g., LogisticRegression, DecisionTree)
 
 They works in similar for different model
+
+
+## 📚 Recommended Learning Order
+
+To maximize learning and build on foundational concepts step by step, here’s a suggested progression:
+
+### 🔷 Supervised Learning
+
+#### 🔹 Classification Models
+  1. `Logistic_Regression.ipynb`  
+     → Intro to classification and linear decision boundaries
+
+  2. `Tree_Classifier.ipynb`  
+     → Covers Decision Trees, Random Forest, GBDT, XGBoost, LightGBM
+
+  3. `SVM.ipynb`  
+     → Kernel-based margin classifiers
+
+  4. `Naive_Bayes.ipynb`  
+     → Probabilistic modeling and conditional independence
+
+#### 🔹 Regression Models
+5. `Linear_Regression.ipynb`  
+   → Fundamental regression modeling (with optional regularization)
+
+---
+
+### 🔷 Unsupervised Learning
+
+6. `Kmeans.ipynb`  
+   → Introduction to clustering using K-means and the elbow method
+
+(*More models such as PCA, DBSCAN, and anomaly detection can follow here*)
+
+---
+
+Each notebook builds conceptually on the last, and all preprocessing is modularized using pipelines for reusability across experiments.
+
 
