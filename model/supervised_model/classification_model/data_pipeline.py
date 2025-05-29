@@ -37,7 +37,7 @@ def build_pipeline(numerical_cols, categorical_cols, model=None):
 
     return pipeline
 
-def evaluate_model(model_pipeline, X_test, y_test, model_name="Model"):
+def evaluate_model(model_pipeline, X_test, y_test, model_name="model"):
     """
     通用分类模型评估函数：打印报告 + 混淆矩阵 + AUC 曲线
     """
