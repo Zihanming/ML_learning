@@ -37,13 +37,12 @@ basic/
 
 ## 🧪 II. 数据预处理（data_preprocessing）
 
-| 主题                   | 子主题                                                           |
-|----------------------|------------------------------------------------------------------|
-| 缺失值处理              | Drop, Imputation (Mean, Median, KNN)                             |
-| 特征缩放与转换          | Standardization, Min-Max Scaling, One-Hot Encoding, Binning       |
-| 特征选择与降维          | Correlation Analysis, PCA, Mutual Information                    |
-| 数据清洗与异常值处理      | Outlier Detection, Clipping, Z-score                             |
-
+| 主题                                   | 子主题                                                           |
+|--------------------------------------|------------------------------------------------------------------|
+| Missing Value                        | Drop, Imputation (Mean, Median, KNN)                             |
+| Scaling & Transformation             | Standardization, Min-Max Scaling, One-Hot Encoding, Binning       |
+| Selection & Dimensionality Reduction | Correlation Analysis, PCA, Mutual Information                    |
+| Pipeline Construction                | Scikit-learn Pipelines, Transformers                            |
 ---
 
 ## 🧬 III. 泛化与调优（generalization_and_tuning）
@@ -56,12 +55,10 @@ basic/
 
 ---
 
-## 📦 IV. 机器学习流程与应用（pipeline_and_application）
+## 📦 IV. 模型上线（application）
 
 | 主题                   | 子主题                                                           |
 |----------------------|------------------------------------------------------------------|
-| Pipeline Construction | Scikit-learn Pipelines, Transformers                            |
-| Model Selection       | Train-Test Split, Validation Set, Cross-Validation Strategy     |
 | Deployment Concepts   | Inference, Latency, Model Versioning, Drift Detection           |
 | Interpretability      | SHAP, LIME, Feature Importance                                  |
 
