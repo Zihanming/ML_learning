@@ -9,7 +9,7 @@ This repo is organized into thematic folders, each with its own `README.md` and 
 
 | Folder | Description |
 |--------|-------------|
-| [`basic/`](./basic) | Core ML foundations: loss functions, activation, regularization, generalization, etc. |
+| [`basic/`](basic_concept) | Core ML foundations: loss functions, activation, regularization, generalization, etc. |
 | [`model/`](./model) | Fundamental ML models: linear regression, logistic regression, MLP, etc. |
 
 Each subfolder contains:
